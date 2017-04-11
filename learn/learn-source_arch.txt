@@ -1,0 +1,116 @@
+Jetty源码结构：
+
+Jetty :: Project
+Jetty :: Utilities
+Jetty :: IO Utility
+Jetty :: Http Utility
+Jetty :: XML utilities
+Jetty :: JMX Management
+Jetty :: Server Core
+Jetty :: Security
+Jetty :: Servlet Handling
+Jetty :: Webapp Application Support
+Jetty :: JNDI Naming
+Jetty :: Plus
+Jetty :: Servlet Annotations
+Jetty :: Ant Plugin
+Jetty :: Utilities :: Ajax(JSON)
+Jetty :: HTTP2
+Jetty :: HTTP2 :: HPACK
+Jetty :: HTTP2 :: Common
+Jetty :: ALPN :: Parent
+Jetty :: ALPN :: Client
+Jetty :: Continuation
+Jetty :: Utility Servlets and Filters
+Jetty :: Asynchronous HTTP Client
+Jetty :: Proxy
+Jetty :: ALPN :: Server
+Jetty :: HTTP2 :: Server
+Jetty :: HTTP2 :: Client
+Jetty :: HTTP2 :: HTTP Client Transport
+Jetty :: HTTP2 :: ALPN Tests
+Jetty :: FastCGI :: Parent
+Jetty :: FastCGI :: Client
+Jetty :: FastCGI :: Server
+Jetty :: Websocket :: Parent
+Jetty :: Websocket :: API
+Jetty :: Websocket :: Common
+Jetty :: Websocket :: Client
+Jetty :: Websocket :: Servlet Interface
+Jetty :: Websocket :: Server
+Jetty :: Websocket :: javax.websocket :: Client Implementation
+Jetty :: Websocket :: javax.websocket.server :: Server Implementation
+Jetty :: Apache JSP Implementation
+Apache :: JSTL module
+Jetty Tests :: Parent
+Jetty Tests :: WebApps :: Parent
+Jetty Tests :: WebApp :: Mock Resources
+Jetty :: Quick Start
+Jetty :: JAAS
+Jetty :: Jetty Maven Plugin
+Jetty :: Jetty JSPC Maven Plugin
+Jetty :: Deployers
+Jetty :: Start
+Jetty :: CDI :: Parent
+Jetty :: CDI :: Core
+Jetty :: CDI :: Servlet
+Jetty :: CDI :: Dependencies
+Jetty :: CDI :: WebSocket
+Jetty :: CDI :: Test :: WebApp
+Example :: Jetty Spring
+Jetty :: JASPI Security
+Jetty :: Rewrite Handler
+Jetty Tests :: Sessions :: Parent
+Jetty Tests :: Sessions :: Common
+Jetty :: NoSQL Session Managers
+Jetty :: Infinispan Session Managers
+Jetty :: GCloud
+Jetty :: GCloud :: Session Manager
+Jetty :: Memcached
+Jetty :: Memcached :: Sessions
+Jetty :: UnixSocket
+Test :: Jetty Test Webapp
+Test :: Jetty Proxy Webapp
+Jetty Tests :: WebApp :: RFC2616
+Jetty Tests :: Spec Test WebApp :: Parent
+Jetty Tests :: WebApp :: Servlet Spec :: Fragment Jar
+Jetty Tests :: WebApp :: Servlet Spec :: ServletContainerInitializer Test Jar
+Jetty Tests :: Webapps :: Spec Webapp
+Jetty Tests :: WebApp :: JAAS
+Jetty Tests :: WebApp :: JNDI
+Jetty Tests :: Sessions :: Hash
+Jetty Tests :: Sessions :: File
+Jetty Tests :: Sessions :: JDBC
+Jetty Tests :: Sessions :: Mongo
+Jetty Tests :: Sessions :: Infinispan
+Jetty Tests :: Sessions :: GCloud
+Jetty Tests :: Sessions :: Memcached
+Test :: Continuation
+Jetty Tests :: Login Service
+Jetty :: Home Assembly
+Jetty Examples :: Parent
+Example Async Rest
+Example Async Rest :: Jar
+Example Async Rest :: Webapp
+Jetty :: Documentation
+Jetty :: Distribution Assemblies
+Jetty Tests :: Integrations
+Test :: Jetty Quick Start
+Jetty Tests :: JMX Parent
+Jetty Tests :: JMX :: WebApp
+Jetty Tests :: JMX :: WebApp Integration Tests
+Test :: HTTP Client Transports
+Example :: Jetty Embedded
+Jetty :: Runner
+Jetty :: Http Service Provider Interface
+Jetty :: OSGi
+Jetty :: OSGi :: Boot
+Jetty :: OSGi :: Boot JSP
+Jetty :: OSGi :: Boot :: Warurl
+Jetty :: OSGi :: HttpService
+Jetty :: OSGi :: Test WebApp
+Jetty :: OSGi :: Test Context
+Jetty :: OSGi :: WebApp Fragment
+Jetty :: OSGi :: Server
+Jetty :: OSGi ALPN Fragment
+Jetty :: OSGi :: Test

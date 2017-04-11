@@ -99,6 +99,7 @@
   <build>
     <plugins>
       <plugin>
+        <!-- 环境约束 http://www.cnblogs.com/qyf404/p/4829327.html -->
         <artifactId>maven-enforcer-plugin</artifactId>
         <executions>
           <execution>
@@ -151,6 +152,7 @@
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
+        <!-- 单元测试覆盖率 -->
         <artifactId>jacoco-maven-plugin</artifactId>
         <configuration>
           <excludes>
@@ -201,6 +203,7 @@
         </executions>
       </plugin>
       <plugin>
+        <!-- 静态代码分析 -->
         <artifactId>maven-pmd-plugin</artifactId>
         <executions>
           <execution>
@@ -230,6 +233,7 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <!-- 发布 -->
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -241,6 +245,7 @@
         </configuration>
       </plugin>
       <plugin>
+        <!-- 获取特定的远程资源 如：apache项目都要获取一个Apache license-->
         <artifactId>maven-remote-resources-plugin</artifactId>
         <executions>
           <execution>
@@ -258,6 +263,7 @@
       </plugin>
       <!-- The source maven plugin creates the source bundle and adds manifest -->
       <plugin>
+        <!-- 生成源码jar包-->
         <artifactId>maven-source-plugin</artifactId>
         <inherited>true</inherited>
         <executions>
@@ -284,6 +290,7 @@
       </plugin>
       <plugin>
         <groupId>com.mycila</groupId>
+        <!-- 在文件头部添加license信息 -->
         <artifactId>license-maven-plugin</artifactId>
         <inherited>false</inherited>
         <configuration>
@@ -321,6 +328,7 @@
       </plugin>
       <plugin>
         <groupId>org.apache.felix</groupId>
+        <!-- OSGI相关？-->
         <artifactId>maven-bundle-plugin</artifactId>
         <executions>
           <execution>
@@ -1162,7 +1170,7 @@
         <module>aggregates/jetty-all-compact3</module>
       </modules>
     </profile>
-    <profile>
+      <profile>
       <id>8u00</id>
       <activation>
         <property>

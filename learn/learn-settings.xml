@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <profiles>
+    <profile>
+      <id>jetty</id>
+      <repositories>
+        <repository>
+          <id>oss.sonatype.org</id>
+          <name>Jetty Staging Repository</name>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+        <repository>
+          <id>oss.sonatype.org.snapshot</id>
+          <name>Jetty Snapshot Repository</name>
+          <url>https://oss.sonatype.org/content/repositories/jetty-snapshots/</url>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+</settings>
