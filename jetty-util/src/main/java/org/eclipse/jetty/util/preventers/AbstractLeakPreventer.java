@@ -34,6 +34,14 @@ import org.eclipse.jetty.util.log.Logger;
  * ensure that they are called when the Server instance starts up, which will have the jetty
  * classloader in scope.
  *
+ * 查找防止webapp类加载器固定住(pinning)的基类，使用jetty的类加载器积极调用
+ * 会固定住加载器（通常来说会像静态成员变量或作为daemon线程的，会使用context加载器的静态成员变量）的代码
+ *
+ * 子类实例应使用Server.addBean()进行设置，以保证会在Server实例启动时（拥有jetty类加载器范围）被调用。
+ *
+ * 注：系统类加载器会加载JETTY_HOME/lib下的内容，Jetty的WebAppClassLoader用于加载WEB-INF/lib、WEB-INF/classes
+ * 以防止多个WEBAPP互相影响。可参考http://blog.csdn.net/lovingprince/article/details/6314309
+ *
  */
 public abstract class AbstractLeakPreventer extends AbstractLifeCycle
 {
